@@ -1,0 +1,28 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+
+# Virtual environments
+venv/
+env/
+env.bak/
+env1/
+venv1/
+pyvenv.cfg
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Compiled source
+__pycache__/
+*.pyc
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
