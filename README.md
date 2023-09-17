@@ -4,7 +4,7 @@ script that uses a list of common API endpoints and payloads to fuzz test an API
 
 ## Overview
 
-API Fuzzer is a Python script designed for security testing of APIs. It automates sending various payloads to API endpoints and identifies potential vulnerabilities. Please note that this tool should only be used on systems for which you have explicit authorization to test, and it is intended for educational purposes only.
+API Fuzzer is a Python script designed for security testing of APIs. It automates sending various payloads to API endpoints and identifies potential vulnerabilities. Please note that this tool should only be used on systems for which you have explicit authorization to test, and it is intended for educational purposes only. Evoid legal troubles.
 
 ## Installation
 
