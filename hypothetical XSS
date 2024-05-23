@@ -1,0 +1,11 @@
+def generate_custom_payloads(api_documentation):
+    custom_payloads = []
+
+    # Example: Assuming API documentation contains information about input fields susceptible to XSS
+    for endpoint in api_documentation.endpoints:
+        for field in endpoint.input_fields:
+            # Craft a simple XSS payload
+            xss_payload = f"<script>alert('XSS in {field}')</script>"
+            custom_payloads.append(xss_payload)
+
+    return custom_payloads
